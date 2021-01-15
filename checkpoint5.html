@@ -7,6 +7,9 @@
     <title>Our Shopping Cart</title>
     <link rel="stylesheet" href="checkpoint5.css">
 
+    <script src="https://kit.fontawesome.com/5b4d8b9cfe.js" crossorigin="anonymous"></script>
+
+
 </head>
 
 <body>
@@ -17,50 +20,59 @@
     </div></br>
 
 
-    <h1>Your Shopping-Cart</h1>
+    <h1><i class="fas fa-shopping-cart"></i>Your Shopping-Cart</h1>
     <table>
         <tr>
-            <th>Item</th>
-            <th>Quantity</th>
-            <th>Subtotal</th>
+            <div class="tab-header">
+                <th>Item</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </div>
         </tr>
         <div class="CartItems">
             <tr class="row-item">
                 <td>
                     <div class="item1">
-                        <img src="product1.jpg" alt="Item's picture does not load correctly" />
+                        <img src="product4.jpg" alt="Item's picture does not load correctly" />
                         <div>
-                            <p>Item1</p></br>
-                            <small class="price-item">Price: TND19.99</small>
+                            <p>Item1 description</p></br>
+                            <small class="price-item">Price: TND59.99</small>
 
                         </div>
                     </div>
                 </td>
-                <td>
+                <td class="buttons">
+
+                    <div class="container"><i id="btn-like" class="far fa-heart"></i></div>
                     <button class="btnPlus">+</button>
                     <span class="qte">1</span>
                     <button class="btnMinus">-</button>
                     <button class="btn btn-danger" type="button">Remove Item</button>
-          
+
+
+
                 </td>
-                <td class="cart-subtotal-price">TND19.99</td>
+                <td class="cart-subtotal-price">TND39.99</td>
             </tr>
             <tr class="row-item">
                 <td>
                     <div class="item2">
                         <img src="product2.jpg" alt="Item's picture does not load correctly" />
                         <div>
-                            <p>Item2</p></br>
+                            <p>Item2 description</p></br>
                             <small class="price-item">Price: TND39.99</small>
 
                         </div>
                     </div>
                 </td>
-                <td>
+                <td class="buttons">
+
+                    <div class="container"><i id="btn-like" class="far fa-heart"></i></div>
                     <button class="btnPlus">+</button>
                     <span class="qte">1</span>
                     <button class="btnMinus">-</button>
                     <button class="btn btn-danger" type="button">Remove Item</button>
+
 
 
                 </td>
@@ -71,17 +83,21 @@
                     <div class="item3">
                         <img src="product3.jpg" alt="Item's picture does not load correctly" />
                         <div>
-                            <p>Item3</p></br>
+                            <p>Item3 description</p></br>
                             <small class="price-item">Price: TND29.99</small>
 
                         </div>
                     </div>
                 </td>
-                <td>
+                <td class="buttons">
+
+                    <div class="container"><i id="btn-like" class="far fa-heart"></i></div>
                     <button class="btnPlus">+</button>
                     <span class="qte">1</span>
                     <button class="btnMinus">-</button>
                     <button class="btn btn-danger" type="button">Remove Item</button>
+
+
 
                 </td>
                 <td class="cart-subtotal-price">TND29.99</td>
